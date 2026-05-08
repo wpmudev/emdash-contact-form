@@ -23,13 +23,13 @@ A built-in contact form for [EmDash CMS](https://emdash.dev). One form, one shor
 Pin to a release tag (recommended for production):
 
 ```bash
-npm install github:neelg12/emdash-contact-form#v0.2.0
+npm install github:wpmudev/emdash-contact-form#v0.2.0
 ```
 
 Or track the latest commit on `main`:
 
 ```bash
-npm install github:neelg12/emdash-contact-form
+npm install github:wpmudev/emdash-contact-form
 ```
 
 For local development against an in-progress copy of the plugin (see the [Developing the plugin](#developing-the-plugin) section for the full workflow):
@@ -196,7 +196,7 @@ If you serve behind Cloudflare or another reverse proxy, forward `x-forwarded-fo
 Want to fix a bug or add a feature? Workflow:
 
 ```bash
-git clone https://github.com/neelg12/emdash-contact-form.git
+git clone https://github.com/wpmudev/emdash-contact-form.git
 cd emdash-contact-form
 npm install
 ```

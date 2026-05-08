@@ -17,8 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Bump the dependency in your `package.json`:
 
 ```diff
-- "@incsub/emdash-contact-form": "github:neelg12/emdash-contact-form#v0.1.0"
-+ "@incsub/emdash-contact-form": "github:neelg12/emdash-contact-form#v0.2.0"
+- "@incsub/emdash-contact-form": "github:wpmudev/emdash-contact-form#v0.1.0"
++ "@incsub/emdash-contact-form": "github:wpmudev/emdash-contact-form#v0.2.0"
 ```
 
 Remove the `vite.ssr.noExternal` block from your `astro.config.mjs` (still required if installing via `file:` / `link:`):
@@ -63,5 +63,5 @@ Initial release.
 - The loader script is inlined (~3 KB) on every public page rather than served as a cacheable external file. This is a workaround for EmDash's plugin route wrapper, which JSON-serializes all responses and would mangle a JavaScript file.
 - CSV export of submissions is generated but not surfaced in the admin UI for the same reason. The utility (`src/csv.ts`) is retained for direct use.
 
-[0.2.0]: https://github.com/neelg12/emdash-contact-form/releases/tag/v0.2.0
-[0.1.0]: https://github.com/neelg12/emdash-contact-form/releases/tag/v0.1.0
+[0.2.0]: https://github.com/wpmudev/emdash-contact-form/releases/tag/v0.2.0
+[0.1.0]: https://github.com/wpmudev/emdash-contact-form/releases/tag/v0.1.0
